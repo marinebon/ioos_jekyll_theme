@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% include analytics.html %}
+
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,800%7CRoboto:100,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+  <title>IOOS - {{ page.title }}</title>
+</head>
+<body>
+ <div class="wrapper">
+  <div id="header-one">
+   <img src="{{ site.baseurl }}/assets/img/logo.png" alt="logo">
+  </div>
+   {{ content }}
+ </div>
+ <div id="footer">
+  <div id="info">
+   <p>&copy; {{ site.time | date: '%Y' }} <a href="https://ioos.noaa.gov/">The U.S. Integrated Ocean Observing System (IOOS)</a></p>
+  </div>
+ </div>
+</body>
+</html>
