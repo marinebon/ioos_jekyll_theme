@@ -17,7 +17,7 @@ main:
 site_nav:
   - title: Side Nav Menu 1
     children:
-      - title: "Child 1"
+      - title: "Readme"
         url: /pages/readme/
       - title: "Child 2"
         url: /pages/page_2/
