@@ -21,6 +21,18 @@
     border: 0px;
 }
 
+div.prompt {
+  text-align:left;
+}
+
+div.prompt {
+  width: 11ex;
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace, sans-serif;
+  font-size: 80%;
+  text-align: left;
+
 /* General highlight */
 div.highlighter-rouge, figure.highlight {
   position: relative;
