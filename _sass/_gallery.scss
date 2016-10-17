@@ -2,13 +2,6 @@
    Notebook gallery
    ========================================================================== */
 
-#content-wrapper {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 #gallery {
   display: flex;
   flex-flow: row wrap;
@@ -17,14 +10,14 @@
 #gallery div {
   border: 2px solid black;
   border-radius: 10px;
-  flex: 1 1 80px;
+  flex: 0 1 230px;
   margin: 10px;
   padding: 5px;
 }
 
 #gallery div:hover {
   border-width: 5px;
-  border-color: #FF7000;
+  border-color: #F3A536;
   margin: 7px;
 }
 
