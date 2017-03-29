@@ -1,13 +1,13 @@
 ---
 layout: single
-excerpt: "IOOS Jekyll Theme"
+excerpt: "IOOS Jekyll Theme Getting Started"
 sitemap: false
 permalink: /pages/readme/
 ---
-## IOOS Jekyll Theme ##
+## IOOS Jekyll Theme Getting Started ##
 This repo holds the common Jekyll theme code for IOOS GitHub.io documentation sites.  The IOOS theme is based on IOOS'
 fork of the ['Minimal Mistakes'](https://github.com/mmistakes/minimal-mistakes)
-Jekyll theme originally developed for [IOOS Catalog documentation site](https://ioos.github.io/catalog/).  
+Jekyll theme originally developed for the [IOOS Catalog documentation site](https://ioos.github.io/catalog/).  
 
 This single IOOS theme was developed to streamline and simplify management of the IOOS documentation sites hosted on
 GitHub Pages (aka GitHub.io).  When a new IOOS documentation site is built following the instructions described here,
@@ -27,17 +27,18 @@ The main difference in the approach you take is whether you want to run the Jeky
   updates (GitHub Pages internally uses Jekyll to render HTML from markdown).  This means you can copy the example code
   in this repository into your own repository 'gh-pages' branch, make a few config file modifications, and push to GitHub
   directly to see a rendered site matching exactly this site without any special software on your workstation (other than
-  perhaps a GitHub client).  
+  perhaps a GitHub client for pushing updates to GitHub).  
 
-#### Local Jekyll Development: ####
+### 1. Local Jekyll Development: ###
 Running Jekyll locally will allow for faster site development, but you must be able to install Ruby on your workstation.
-If you are able to run the Ruby/Jekyll environment locally, refer to [this](https://ioos.github.io/ioos_jekyll_theme/pages/jekyll/)
+
+If you are able to run the Ruby/Jekyll environment locally, refer to the [Jekyll Development Environment Set Up](https://ioos.github.io/ioos_jekyll_theme/pages/jekyll/)
 page for the steps required for this approach.
 
-#### GitHub Pages-based Development: ####
+### 2.  GitHub Pages-based Development: ###
 If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this
 template.  The process to do this is to download the code from the ['gh-pages'](https://github.com/ioos/ioos_jekyll_theme/tree/gh-pages)
-branch of this repository, adapt, and publish to a 'gh-pages' branch of your own repository.  Instructions to do this:
+branch of this repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository.  Instructions to do this:
 
 ```
 cd /my/sourcecode/dir
@@ -68,7 +69,7 @@ git push origin gh-pages
 ## Modifying Theme Content For Your Site ##
 The important files and directories to modify the template are the following:
 
-|Name|Description|
+|**Name**|**Description**|
 |\_config.yml and \_config_dev.yml| Main Jekyll configuration files.  Modify settings in these to change anything related to the theme|
 |/\_data/navigation.yml| Configuration file for main header categories and side navigation bar(s) to use in your site|
 |/\_pages/| Directory to place any standard 'page' markdown content to publish|

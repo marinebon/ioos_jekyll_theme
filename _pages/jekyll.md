@@ -69,5 +69,6 @@ Out of the box, this will publish a local Jekyll service listening on port 4000,
 
 [http://localhost:4000/ioos_jekyll_theme/](http://localhost:4000/ioos_jekyll_theme/)
 
-The path can be modified by changing settings in the \_config.yml (GitHub deployment settings) and \_config_dev.yml
-(local development settings) files.
+The path the site is deployed to should be modified to match your repository name by changing the 'baseurl' setting
+ in the \_config.yml (primary Jekyll config/GitHub Pages deployment settings file) and the \_config_dev.yml
+(local development settings override) files.

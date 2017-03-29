@@ -3,6 +3,6 @@ title: ""
 layout: single
 excerpt: ""
 sitemap: false
-permalink: /pages//
+permalink: /pages/template/
 ---
-##  ##
+## Template Page ##

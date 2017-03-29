@@ -2,15 +2,23 @@
 
 This repo holds the common Jekyll theme code for IOOS GitHub.io documentation sites.  The IOOS theme is based on IOOS'
 fork of the ['Minimal Mistakes'](https://github.com/mmistakes/minimal-mistakes)
-Jekyll theme originally developed for IOOS Catalog documentation site: https://ioos.github.io/catalog/.
+Jekyll theme originally developed for the [IOOS Catalog documentation site](https://ioos.github.io/catalog/).
 
 An example version of this template is available here: [https://ioos.github.io/ioos_jekyll_theme](https://ioos.github.io/ioos_jekyll_theme).  
 
 Instructions for downloading and creating your own documentation site based on this template code is available
-[here](https://ioos.github.io/ioos_jekyll_theme/pages/jekyll/).  Following these instructions will provide you with
-the Ruby/Jekyll environment on your desktop and a clone of the ['gh-pages'](https://github.com/ioos/ioos_jekyll_theme/tree/gh-pages)
-branch of this repository, which has a git submodule reference to the common template code in the master branch.
+[here](https://ioos.github.io/ioos_jekyll_theme/pages//readme/).  These instructions outline two approaches available for
+developing a GitHub Pages site based on this template:
 
-Updates to the IOOS GitHub.io documentation site based on this template can therefore be managed more easily via update
-of template code once in the master branch of this repository followed by running git submodule update commands in each
-of the downstream repositories that reference it.   
+1. using a full Ruby/Jekyll development environment on your workstation (benefit is more rapid iteration of site content
+  changes).
+2. modifying markdown and template config files via text editor and pushing modifications to your repository 'gh-pages'
+  branch to leverage GitHub Pages' Jekyll environment to render the results live (eg. https://ioos.github.io/your_repo_name).
+
+Both approaches involve downloading/cloning the ['gh-pages'](https://github.com/ioos/ioos_jekyll_theme/tree/gh-pages)
+branch of this repository, which is a mock-up documentation site based on the template code contained in the 'master' branch.
+The 'gh-pages' branch has an internal git submodule reference to the master branch with the template code.
+
+Updates to the IOOS GitHub Pages based documentation sites that use this template can be managed more easily due to the
+submodule reference to a single template code base.  The workflow is to update the master branch template code,
+followed by running git submodule update commands in each of the downstream repositories.   
