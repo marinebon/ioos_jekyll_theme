@@ -4,7 +4,7 @@ This repo holds the common Jekyll theme code for IOOS GitHub.io documentation si
 fork of the ['Minimal Mistakes'](https://github.com/mmistakes/minimal-mistakes)
 Jekyll theme originally developed for the [IOOS Catalog documentation site](https://ioos.github.io/catalog/).
 
-An example version of this template is available here: [https://ioos.github.io/ioos_jekyll_theme](https://ioos.github.io/ioos_jekyll_theme).  
+An example version of this template is available here: [https://ioos.github.io/ioos_jekyll_theme](https://ioos.github.io/ioos_jekyll_theme).
 
 Instructions for downloading and creating your own documentation site based on this template code is available
 [here](https://ioos.github.io/ioos_jekyll_theme/pages//readme/).  These instructions outline two approaches available for
@@ -21,4 +21,4 @@ The 'gh-pages' branch has an internal git submodule reference to the master bran
 
 Updates to the IOOS GitHub Pages based documentation sites that use this template can be managed more easily due to the
 submodule reference to a single template code base.  The workflow is to update the master branch template code,
-followed by running git submodule update commands in each of the downstream repositories.   
+followed by running git submodule update commands in each of the downstream repositories.
