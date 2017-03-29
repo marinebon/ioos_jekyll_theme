@@ -6,9 +6,10 @@ Jekyll theme originally developed for the [IOOS Catalog documentation site](http
 
 An example version of this template is available here: [https://ioos.github.io/ioos_jekyll_theme](https://ioos.github.io/ioos_jekyll_theme).
 
-Instructions for downloading and creating your own documentation site based on this template code is available
-[here](https://ioos.github.io/ioos_jekyll_theme/pages//readme/).  These instructions outline two approaches available for
-developing a GitHub Pages site based on this template:
+Instructions for downloading and creating your own documentation site based on this template code is available at the
+[IOOS Jekyll Template Getting Started](https://ioos.github.io/ioos_jekyll_theme/pages/readme/) page.
+
+These instructions outline two approaches available for developing a GitHub Pages site based on this template:
 
 1. using a full Ruby/Jekyll development environment on your workstation (benefit is more rapid iteration of site content
   changes).
