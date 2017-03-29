@@ -1,0 +1,35 @@
+# main links links
+main:
+  - title: "IOOS Theme Documentation"
+    url: /pages/readme/
+
+  - title: "Jekyll Development Setup"
+    url: /pages/jekyll/
+
+  - title: "Header 3"
+    url: /pages/readme/
+
+  - title: "Header 4"
+    url: /pages/readme/
+
+
+
+
+
+# site_nav links
+site_nav:
+  - title: IOOS Theme Documentation
+    children:
+      - title: "Theme documentation"
+        url: /pages/readme/
+      - title: "Jekyll development set up"
+        url: /pages/jekyll/
+
+  - title: Example Side Nav Menu 2
+    children:
+      - title: "Theme Documentation"
+        url: /pages/readme/
+      - title: "Child 2"
+        url: /pages/page_2/
+      - title: "Child 3"
+        url: /pages/page_3/
