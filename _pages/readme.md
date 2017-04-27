@@ -70,6 +70,7 @@ git push origin gh-pages
 The important files and directories to modify the template are the following:
 
 |**Name**|**Description**|
+|--------|------------|
 |\_config.yml and \_config_dev.yml| Main Jekyll configuration files.  Modify settings in these to change anything related to the theme|
 |/\_data/navigation.yml| Configuration file for main header categories and side navigation bar(s) to use in your site|
 |/\_pages/| Directory to place any standard 'page' markdown content to publish|

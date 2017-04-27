@@ -35,7 +35,7 @@ for more info.
 gem install bundler
 ```
 
-- Checkout the 'gh-pages' branch of the ioos_jekyll_theme GitHub repo to get this example code.  This will include a
+- Clone the ioos_jekyll_theme GitHub repo ('gh-pages' branch) to get this example code.  This will include a
 git submodule reference to the 'master' branch which includes the theme itself.  
 
 ```
