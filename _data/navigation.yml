@@ -1,15 +1,12 @@
 # main links links
 main:
-  - title: "IOOS Theme Documentation"
+  - title: "About MBON"
     url: /pages/readme/
 
-  - title: "Jekyll Development Setup"
-    url: /pages/jekyll/
+  - title: "Header 2"
+    url: /pages/readme/
 
   - title: "Header 3"
-    url: /pages/readme/
-
-  - title: "Header 4"
     url: /pages/readme/
 
 
@@ -18,20 +15,25 @@ main:
 
 # site_nav links
 site_nav:
-  - title: IOOS Theme Documentation
+  - title: Side Nav Menu 1
     children:
-      - title: "Getting Started Documentation"
+      - title: "Readme"
         url: /pages/readme/
-      - title: "Jekyll Development Setup"
-        url: /pages/jekyll/
-      - title: "Template Page"
-        url: /pages/template/
-
-  - title: Example Side Nav Menu 2
-    children:
-      - title: "Child 1"
-        url: /pages/page_2/
       - title: "Child 2"
         url: /pages/page_2/
       - title: "Child 3"
         url: /pages/page_3/
+
+  - title: Side Nav Menu 2
+    children:
+      - title: "Child 1"
+        url: /pages/readme/
+      - title: "Child 2"
+        url: /pages/page_2/
+      - title: "Child 3"
+        url: /pages/page_3/
+
+  - title: Jekyll HOWTO
+    children:
+      - title: "Setting up Jekyll"
+        url: /pages/jekyll/
