@@ -1,6 +1,7 @@
 # main links links
 main:
-#Marine Biodiversity Observation Network
+  - title: "Marine Biodiversity Observation Network"
+  <br>
   - title: "About MBON"
     url: /pages/readme/
 
