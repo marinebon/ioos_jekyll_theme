@@ -1,7 +1,7 @@
+Marine Biodiversity Observation Network
+
 # main links links
 main:
-  - title: "Marine Biodiversity Observation Network"
-  <br>
   - title: "About MBON"
     url: /pages/readme/
 
@@ -11,7 +11,7 @@ main:
   - title: "U.S. Data"
     url: /pages/readme/
 
-  - title: "International Activity"
+  - title: "International Activities"
     url: /pages/readme/
 
   - title: "Pole to Pole"
