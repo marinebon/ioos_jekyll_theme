@@ -1,4 +1,16 @@
-# Jekyll theme for IOOS GitHub pages
+# marinebon.org re-build
+This is a WiP rebuild of the marinebon.org website using jekyll based on the Jekyll theme for IOOS github pages.
+
+With this rebuild the following MBON web pages will be updated (and merged where appropriate):
+* http://www.marinebon.org/
+* https://ioos.noaa.gov/project/bio-data/  
+* marinebon.github.io
+
+The `master` branch contains a modified fork of the IOOS theme, and the `gh-pages` branch contains the actual content of the website.
+
+------------------------------------------------------------
+
+## Jekyll theme for IOOS GitHub pages
 
 This repo holds the common Jekyll theme code for IOOS GitHub.io documentation sites.  The IOOS theme is based on IOOS'
 fork of the ['Minimal Mistakes'](https://github.com/mmistakes/minimal-mistakes)
