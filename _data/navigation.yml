@@ -3,15 +3,19 @@ main:
   - title: "About MBON"
     url: /pages/readme/
 
-  - title: "Header 2"
+  - title: "News"
     url: /pages/readme/
 
-  - title: "Header 3"
+  - title: "U.S. Data"
     url: /pages/readme/
 
+  - title: "International Activities"
+    url: /pages/readme/
 
-
-
+  - title: "Pole to Pole"
+    url: /pages/readme/
+    
+    
 
 # site_nav links
 site_nav:
