@@ -6,13 +6,16 @@ main:
   - title: "News"
     url: /pages/readme/
 
-  - title: "U.S. Data"
+  - title: "U.S. Projects"
+    url: /pages/readme/
+    
+   - title: "Data"
     url: /pages/readme/
 
-  - title: "International Activity"
+  - title: "Global Efforts"
     url: /pages/readme/
 
-  - title: "Pole to Pole"
+  - title: "MBON Pole to Pole"
     url: /pages/readme/
     
     
