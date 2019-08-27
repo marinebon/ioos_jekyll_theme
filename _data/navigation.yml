@@ -9,7 +9,7 @@ main:
   - title: "U.S. Projects"
     url: /pages/readme/
     
-   - title: "Data"
+  - title: "Data"
     url: /pages/readme/
 
   - title: "Global Efforts"
@@ -17,7 +17,6 @@ main:
 
   - title: "MBON Pole to Pole"
     url: /pages/readme/
-    
     
 
 # site_nav links
