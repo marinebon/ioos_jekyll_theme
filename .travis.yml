@@ -3,7 +3,8 @@ dist: xenial
 
 branches:
   only:
-    - master
+    - website  # for /marinebon/ioos_jekyll_theme website
+    - master  # for future clones of the website branch using master
 
 cache: bundler
 
@@ -25,7 +26,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:
-    branch: master
+    branch: gh-pages
   local_dir: public
   # fqdn: travis-blogdown.yihui.name  # this sets CNAME for custom DN
 
