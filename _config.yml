@@ -231,6 +231,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -239,7 +240,9 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-remote-theme
+  
+remote_theme: marinebon/ioos_jekyll_theme
 
 # Archives
 #  Type
