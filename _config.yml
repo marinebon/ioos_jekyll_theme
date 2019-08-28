@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "IOOS <Project Name> Documentation Site"
+title                    : "IOOS MBON Project Site"
 title_separator          : "-"
-name                     : "US IOOS"
+name                     : "IOOS MBON"
 description              : ""
-url                      : "https://ioos.github.io"
+url                      : "https://marinebon.github.io"
 baseurl                  : "/ioos_jekyll_theme"
-repository               : "ioos/ioos_jekyll_theme"
+repository               : "marinebon/ioos_jekyll_theme"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
