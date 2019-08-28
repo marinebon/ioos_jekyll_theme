@@ -1,10 +1,11 @@
 language: ruby
 dist: xenial
 
-branches:
+branches:  # travis build limitations
   only:
-    - website  # for /marinebon/ioos_jekyll_theme website
+    - website  # for /marinebon/ioos_jekyll_theme website content
     - master  # for future clones of the website branch using master
+    # - theme  # for /marinebon/ioos_jekyll_theme jeykll theme
 
 cache: bundler
 
@@ -25,8 +26,9 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  on:
-    branch: gh-pages
+  on:  # deployment limitations
+    branch: website
+
   local_dir: public
   # fqdn: travis-blogdown.yihui.name  # this sets CNAME for custom DN
 
