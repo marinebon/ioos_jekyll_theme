@@ -240,11 +240,6 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: marinebon/ioos_jekyll_theme
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
