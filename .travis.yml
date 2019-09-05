@@ -19,6 +19,9 @@ before_install:
 install:
   - bundle install
 
+before_script:
+    - rm -rf _site
+
 script:
     # For jekyll/jekyll#6374
     - git submodule update --remote --recursive
