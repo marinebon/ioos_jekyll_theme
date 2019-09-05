@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "About MBON"
-    url: /pages/readme/
+    url: /index.html
 
   - title: "News"
     url: /pages/readme/
 
   - title: "U.S. Projects"
-    url: /pages/readme/
+    url: /pages/us_projects/
     
   - title: "Data"
     url: /pages/readme/
