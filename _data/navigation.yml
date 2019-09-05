@@ -7,7 +7,7 @@ main:
     url: /pages/readme/
 
   - title: "U.S. Projects"
-    url: /pages/us_projects/
+    url: /pages/us_projects.md
     
   - title: "Data"
     url: /pages/readme/
