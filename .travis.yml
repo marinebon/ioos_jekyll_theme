@@ -1,12 +1,14 @@
 language: ruby
 dist: xenial
 
-branches:  # travis build limitations
-  only:
-    - website  # for /marinebon/ioos_jekyll_theme website content
-    - master  # for future clones of the website branch using master
-    # - theme  # for /marinebon/ioos_jekyll_theme jeykll theme
+# === travis build limitations
+# blocklist
+branches:
+  except:
+  - theme
+  - gh-pages
 
+# === setup install & build
 cache: bundler
 
 before_install:
