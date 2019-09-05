@@ -20,7 +20,7 @@ install:
   - bundle install
 
 before_script:
-    - rm -rf _site
+    - rm -rfv _site
 
 script:
     # For jekyll/jekyll#6374
