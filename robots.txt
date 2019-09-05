@@ -1,0 +1,1 @@
+Sitemap: https://marinebon.github.io/ioos_jekyll_theme/sitemap.xml
