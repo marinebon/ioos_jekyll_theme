@@ -4,24 +4,24 @@ main:
     url: /index.html
 
   - title: "News"
-    url: /pages/readme/
+    url: /pages/news/
 
   - title: "U.S. Projects"
     url: /pages/us_projects/
     
   - title: "Data"
-    url: /pages/readme/
+    url: /pages/data/
 
   - title: "Global Efforts"
-    url: /pages/readme/
+    url: /pages/global_efforts/
 
   - title: "MBON Pole to Pole"
-    url: /pages/readme/
+    url: /pages/pole_to_pole/
     
 
 # site_nav links
 site_nav:
-  - title: Side Nav Menu 1
+  - title: MBON GLOBAL COLLABORATORS
     children:
       - title: "Readme"
         url: /pages/readme/
@@ -30,16 +30,4 @@ site_nav:
       - title: "Child 3"
         url: /pages/page_3/
 
-  - title: Side Nav Menu 2
-    children:
-      - title: "Child 1"
-        url: /pages/readme/
-      - title: "Child 2"
-        url: /pages/page_2/
-      - title: "Child 3"
-        url: /pages/page_3/
-
-  - title: Jekyll HOWTO
-    children:
-      - title: "Setting up Jekyll"
-        url: /pages/jekyll/
+  
