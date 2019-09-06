@@ -23,11 +23,13 @@ main:
 site_nav:
   - title: MBON GLOBAL COLLABORATORS
     children:
-      - title: "Readme"
+      - title: "Collaborator 1"
         url: /pages/readme/
-      - title: "Child 2"
+        
+      - title: "Collaborator 2"
         url: /pages/page_2/
-      - title: "Child 3"
+        
+      - title: "Collaborator 2"
         url: /pages/page_3/
 
   
