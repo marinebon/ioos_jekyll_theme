@@ -25,12 +25,10 @@ site_nav:
     children:
       - title: "Collaborator 1"
         url: /pages/readme/
-        
-        
+        <p>&nbsp;</p>
       - title: "Collaborator 2"
         url: /pages/page_2/
-        
-        
+        <p>&nbsp;</p> 
       - title: "Collaborator 3"
         url: /pages/page_3/
 
