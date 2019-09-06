@@ -26,10 +26,12 @@ site_nav:
       - title: "Collaborator 1"
         url: /pages/readme/
         
+        
       - title: "Collaborator 2"
         url: /pages/page_2/
         
-      - title: "Collaborator 2"
+        
+      - title: "Collaborator 3"
         url: /pages/page_3/
 
   
