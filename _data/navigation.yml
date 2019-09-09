@@ -23,12 +23,13 @@ main:
 site_nav:
   - title: MBON GLOBAL COLLABORATORS
     children:
-      [![](/images/logo_geobon.jpg)GEO BON](https://geobon.org/)
+      - title: "GEO BON"
+        url: https://geobon.org/
     
-      - title: "Collaborator 2"
-        url: /pages/page_2/
+      - title: "OBIS"
+        url: https://obis.org/
 
-      - title: "Collaborator 3"
-        url: /pages/page_3/
+      - title: "IOOS"
+        url: https://ioos.noaa.gov/
 
   
