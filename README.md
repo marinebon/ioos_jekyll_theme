@@ -15,7 +15,7 @@ The `gh-pages` branch is used by Travis.CI to deploy the website to GitHub's ser
 1. [install ruby & jekyll](https://jekyllrb.com/)
 2. `bundle install` to set up ruby dependencies
 3. `git submodule update --init --recursive` to install the theme
-3. `bundle exec jekyll serve` to host the site at localhost:4000
+3. `bundle exec jekyll serve` to build & host the site at localhost:4000
 
 ------------------------------------------------------------
 
