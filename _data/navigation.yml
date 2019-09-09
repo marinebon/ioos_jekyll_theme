@@ -23,8 +23,7 @@ main:
 site_nav:
   - title: MBON GLOBAL COLLABORATORS
     children:
-      - title: "Collaborator 1"
-        url: /pages/readme/
+      [![](/images/logo_geobon.jpg)GEO BON](https://geobon.org/)
     
       - title: "Collaborator 2"
         url: /pages/page_2/
