@@ -8,7 +8,7 @@ main:
 
   - title: "U.S. Projects"
     url: /pages/us_projects/
-    
+
   - title: "Data"
     url: /pages/data/
 
@@ -17,7 +17,6 @@ main:
 
   - title: "MBON Pole to Pole"
     url: /pages/pole_to_pole/
-    
 
 # site_nav links
 site_nav:
@@ -25,14 +24,12 @@ site_nav:
     children:
       - title: "GEO BON"
         url: https://geobon.org/
-        image: /images/geobon_logo.jpg
-    
+        image: geobon_logo.jpg
+
       - title: "OBIS"
         url: https://obis.org/
-        image: /images/obis_logo.jpg
+        image: obis_logo.jpg
 
       - title: "IOOS"
         url: https://ioos.noaa.gov/
-        image: /images/ioos_logo.jpg
-
-  
+        image: ioos_logo.jpg
