@@ -25,13 +25,13 @@ site_nav:
     children:
       - title: "GEO BON"
         url: https://geobon.org/
-        image: /images/geobon_logo.jpg
+        image: /ioos_jekyll_theme/ioos_jekyll_theme/images/geobon_logo.jpg
     
       - url: https://obis.org/
-        image: /images/obis_logo.jpg
+        image: /ioos_jekyll_theme/ioos_jekyll_theme/images/obis_logo.jpg
 
       - title: "IOOS"
         url: https://ioos.noaa.gov/
-        image: /images/noaa_logo.jpg
+        image: /ioos_jekyll_theme/ioos_jekyll_theme/images/ioos_logo.jpg
 
   
