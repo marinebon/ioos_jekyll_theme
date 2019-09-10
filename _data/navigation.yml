@@ -33,6 +33,6 @@ site_nav:
 
       - title: "IOOS"
         url: https://ioos.noaa.gov/
-        img: https://marinebon.github.io/ioos_jekyll_theme/ioos_jekyll_theme/images/ioos_logo.jpg
+        img: /images/ioos_logo.jpg
 
   
