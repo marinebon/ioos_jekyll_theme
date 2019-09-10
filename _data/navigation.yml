@@ -27,7 +27,7 @@ site_nav:
         url: https://geobon.org/
         image: /images/geobon_logo.jpg
     
-      - title: "OBIS"
+      - title: "OBIS.org"
         url: https://obis.org/
         image: /images/obis_logo.jpg
 
