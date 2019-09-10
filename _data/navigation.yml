@@ -25,7 +25,7 @@ site_nav:
     children:
       - title: "GEO BON"
         url: https://geobon.org/
-        img: /images/geobon_logo.jpg
+        img: geobon_logo.jpg
     
       - title: "OBIS"
         url: https://obis.org/
