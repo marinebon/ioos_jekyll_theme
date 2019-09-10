@@ -29,10 +29,10 @@ site_nav:
     
       - title: "OBIS"
         url: https://obis.org/
-        img: /images/obis_logo.jpg
+        img: /ioos_jekyll_theme/images/obis_logo.jpg
 
       - title: "IOOS"
         url: https://ioos.noaa.gov/
-        img: /images/ioos_logo.jpg
+        img: ioos_jekyll_theme/images/ioos_logo.jpg
 
   
