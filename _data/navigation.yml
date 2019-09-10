@@ -25,14 +25,14 @@ site_nav:
     children:
       - title: "GEO BON"
         url: https://geobon.org/
-        img: /images/geobon_logo.jpg
+        image: /images/geobon_logo.jpg
     
       - title: "OBIS"
         url: https://obis.org/
-        img: /images/obis_logo.jpg
+        image: /images/obis_logo.jpg
 
       - title: "IOOS"
         url: https://ioos.noaa.gov/
-        img: /images/ioos_logo.jpg
+        image: /images/ioos_logo.jpg
 
   
