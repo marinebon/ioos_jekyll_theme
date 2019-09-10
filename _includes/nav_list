@@ -36,7 +36,19 @@
               {% assign active = "" %}
             {% endif %}
 
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">
+            {% if child.image %}
+              <img src=
+              {% if child.image contains "://" %}
+                "{{ child.image }}"
+              {% else %}
+                "{{ child.image | prepend: "/images/" | prepend: base_path }}"
+              {% endif %}
+              alt="{{ child.title }}">
+            {% else %}
+              {{ child.title }}
+            {% endif %}
+            </a></li>
           {% endfor %}
         </ul>
         {% endif %}
