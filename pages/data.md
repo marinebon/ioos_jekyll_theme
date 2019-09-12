@@ -14,5 +14,7 @@ U.S. MBON projects and U.S. IOOS Regional Association biological data that suppo
 *   Link to information about protocols, methods and best practices for biological observing
 *   Access a full suite of tools developed with a broad range of IOOS and MBON partners
 
+<div align="center>![](/images/mbon_data.jpg)</div>
+
 **[OBIS Global Data Portal](https://obis.org/manual/access/)**  
 U.S. MBON and U.S. IOOS partners are encouraged to align biological data with the Darwin Core standard to ensure it is globally accessible via the Ocean Biogeographic Information System. OBIS provides a gateway to many datasets containing information on where and when marine species have been recorded. The datasets are integrated and searchable by species name, higher taxonomic level, geographic area, depth, and time.
