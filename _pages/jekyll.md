@@ -38,7 +38,7 @@ gem install bundler
 
 ```
 cd /my/sourcecode/dir
-git clone https://github.com/ioos/ioos_jekyll_theme.git
+git clone https://github.com/ioos/mbon_jekyll_theme.git
 cd catalog
 ```
 

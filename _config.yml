@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : "US IOOS"
 description              : ""
 url                      : "https://ioos.github.io"
-baseurl                  : "/ioos_jekyll_theme"
-repository               : "ioos/ioos_jekyll_theme"
+baseurl                  : "/mbon_jekyll_theme"
+repository               : "ioos/mbon_jekyll_theme"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200

@@ -17,11 +17,11 @@ This template, adapted for IOOS look and feel, is based on the 'Minimal Mistakes
 Documentation for working with the Minimal Mistakes template is can be found here:
 [https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
-Begin by modifying [\_config.yml](https://github.com/ioos/ioos_jekyll_theme/blob/master/_config.yml) with appropriate
-settings for your repository, and modifying the site navigation in the [navigation.yml](https://github.com/ioos/ioos_jekyll_theme/blob/master/_data/navigation.yml)
+Begin by modifying [\_config.yml](https://github.com/ioos/mbon_jekyll_theme/blob/master/_config.yml) with appropriate
+settings for your repository, and modifying the site navigation in the [navigation.yml](https://github.com/ioos/mbon_jekyll_theme/blob/master/_data/navigation.yml)
 configuration file.
 
-If you are able to run the Jekyll environment locally, refer to [this](https://ioos.github.io/ioos_jekyll_theme/pages/jekyll/) page for information on setting it up to support local development.
+If you are able to run the Jekyll environment locally, refer to [this](https://ioos.github.io/mbon_jekyll_theme/pages/jekyll/) page for information on setting it up to support local development.
 
 ### GitHub Pages and Jekyll ###
 Information on the way GitHub uses Jekyll in 'GitHub Pages' sites can be found here:
