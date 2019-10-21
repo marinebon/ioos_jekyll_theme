@@ -12,13 +12,6 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    opacity: 0.75;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
-
-    &:hover {
-      opacity: 1;
-    }
   }
 
   @include breakpoint($x-large) {
@@ -39,7 +32,18 @@
     font-size: $type-size-6;
     line-height: 1.5;
   }
-
+  a {
+      border-left:   1px solid transparent;
+      border-right:  1px solid transparent;
+      border-top:    5px solid transparent;
+      border-bottom: 5px solid transparent;
+  }
+  a:hover {
+      border-left:   1px solid $link-color-hover;
+      border-right:  1px solid $link-color-hover;
+      border-top:    5px solid $link-color-hover;
+      border-bottom: 5px solid $link-color-hover;
+  }
   img {
     width: 100%;
   }
