@@ -8,13 +8,50 @@
         <ul class="visible-links">
           <!--<li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>-->
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/"><img src="{{ base_path }}/_theme/images/logo-navbar.png" style="width: 175px"/></a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% for nav in site.data.navigation.main %}
+            <li>
+              {% if nav.url %}
+                {% comment %}internal/external URL check{% endcomment %}
+                {% if nav.url contains "://" %}
+                  {% assign domain = "" %}
+                {% else %}
+                  {% assign domain = base_path %}
+                {% endif %}
+                <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% if nav.children != null %}
+              <ul>
+                {% for child in nav.children %}
+                  {% comment %}internal/external URL check{% endcomment %}
+                  {% if child.url contains "://" %}
+                    {% assign domain = "" %}
+                  {% else %}
+                    {% assign domain = base_path %}
+                  {% endif %}
+
+                  {% comment %}set "active" class on current page{% endcomment %}
+                  {% if child.url == page.url %}
+                    {% assign active = "active" %}
+                  {% else %}
+                    {% assign active = "" %}
+                  {% endif %}
+                  <!-- TODO: fix class & resulting style here -->
+                  <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">
+                  {% if child.image %}
+                    <img src=
+                    {% if child.image contains "://" %}
+                      "{{ child.image }}"
+                    {% else %}
+                      "{{ child.image | prepend: "/images/" | prepend: base_path }}"
+                    {% endif %}
+                    alt="{{ child.title }}">
+                  {% else %}
+                    {{ child.title }}
+                  {% endif %}
+                  </a></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
