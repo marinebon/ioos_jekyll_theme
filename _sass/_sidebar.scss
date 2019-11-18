@@ -33,16 +33,20 @@
     line-height: 1.5;
   }
   a {
-      border-left:   1px solid transparent;
-      border-right:  1px solid transparent;
-      border-top:    5px solid transparent;
-      border-bottom: 5px solid transparent;
+     & > img {
+         border-left:   1px solid transparent;
+         border-right:  1px solid transparent;
+         border-top:    5px solid transparent;
+         border-bottom: 5px solid transparent;
+     }
   }
   a:hover {
-      border-left:   1px solid $link-color-hover;
-      border-right:  1px solid $link-color-hover;
-      border-top:    5px solid $link-color-hover;
-      border-bottom: 5px solid $link-color-hover;
+      & > img {
+         border-left:   1px solid $link-color-hover;
+         border-right:  1px solid $link-color-hover;
+         border-top:    5px solid $link-color-hover;
+         border-bottom: 5px solid $link-color-hover;
+     }
   }
   img {
     width: 100%;
