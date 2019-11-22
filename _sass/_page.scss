@@ -426,6 +426,9 @@
    float: left;
    padding: 10px;
    height: 150px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
    text-align: center;
    font-size: smaller;
    color: #02007a;
@@ -436,7 +439,6 @@
    justify-content: center;
    flex-direction: column;
    text-align: center;
-   font-size: smaller;
 }
 .gray {
    background-color:#999;
