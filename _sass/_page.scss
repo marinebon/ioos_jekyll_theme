@@ -421,7 +421,7 @@
    News Tiles
    ========================================================================== */
 
-#news-tile {
+.news-tile {
    width: 45%;
    float: left;
    height: 200px;
@@ -432,4 +432,10 @@
    text-align: center;
    font-size: smaller;
    color: #fff;
+}
+.news-tile a {
+   color: white;
+}
+.gray {
+   background-color:#fff;
 }
