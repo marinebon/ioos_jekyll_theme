@@ -425,22 +425,22 @@
    width: 45%;
    float: left;
    padding: 10px;
-   height: 200px;
+   height: 100px;
+   color: #02007a;
+}
+.news-tile a {
+   color: #fff;
    display: flex;
    justify-content: center;
    flex-direction: column;
    text-align: center;
    font-size: smaller;
-   color: #02007a;
-}
-.news-tile a {
-   color: #fff;
 }
 .gray {
    background-color:#999;
-   height: 200px;
+   height: 100px;
 }
 .blue {
    background-color:#1aa7e8;
-   height: 200px;
+   height: 100px;
 }
