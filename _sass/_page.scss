@@ -425,7 +425,9 @@
    width: 45%;
    float: left;
    padding: 10px;
-   height: 100px;
+   height: 150px;
+   text-align: center;
+   font-size: smaller;
    color: #02007a;
 }
 .news-tile a {
@@ -438,9 +440,9 @@
 }
 .gray {
    background-color:#999;
-   height: 100px;
+   height: 150px;
 }
 .blue {
    background-color:#1aa7e8;
-   height: 100px;
+   height: 150px;
 }
