@@ -420,10 +420,14 @@
 /*
    Resources
    ========================================================================== */
+* {
+  resourcebox-sizing: border-box;
+}
 .resourcebox {
   float: left;
   width: 30%;
   padding: 5px;
+  margin: 5px;
   text-align:center;
   font-weight: 900;
   color: #ffffff;  
