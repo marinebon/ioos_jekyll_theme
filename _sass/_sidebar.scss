@@ -10,12 +10,6 @@
   @include clearfix();
   margin-bottom: 1em;
    
-  @include breakpoint(max-width $medium) {
-    img {
-      width: 50%;
-    }
-  }
-   
   @include breakpoint($large) {
     @include span(2 of 12);
   }
